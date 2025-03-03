@@ -2,7 +2,7 @@
  TryOverflowMe 1
  &lt;a class="anchor" href="#tryoverflowme-1">#&lt;/a>
 &lt;/h1>
-&lt;p>Nos entregan un binario de 64 bits con la siguientes protecciones.&lt;/p>
+&lt;p>We are provided with a 64-bit binary with the following protections.&lt;/p>
 &lt;pre>&lt;font color="#F66151">&lt;b>$&lt;/b>&lt;/font> checksec overflowme1 
  Arch: amd64-64-little
  RELRO: &lt;font color="#A2734C">Partial RELRO&lt;/font>
@@ -10,7 +10,7 @@
  NX: &lt;font color="#26A269">NX enabled&lt;/font>
  PIE: &lt;font color="#C01C28">No PIE (0x400000)&lt;/font>
  Stripped: &lt;font color="#C01C28">No&lt;/font>&lt;/pre>
-&lt;p>Tambien tenemos su codigo fuente.&lt;/p>
+&lt;p>We also have its source code.&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>(){
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">setup&lt;/span>();
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">banner&lt;/span>();
@@ -35,8 +35,8 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">exit&lt;/span>(&lt;span style="color:#ae81ff">1&lt;/span>);
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="analisis-del-codigo-fuente">
- Analisis del codigo fuente.
- &lt;a class="anchor" href="#analisis-del-codigo-fuente">#&lt;/a>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="analysis-of-the-source-code">
+ Analysis of the source code.
+ &lt;a class="anchor" href="#analysis-of-the-source-code">#&lt;/a>
 &lt;/h2>
-&lt;p>Vemos que define una variable &lt;code>admin&lt;/code> con el valor de &lt;code>0&lt;/code>, luego define un buffer de &lt;code>0x10&lt;/code> (16 bytes en decimal), con &lt;code>puts&lt;/code> imprime la cadena &lt;code>PLease go ahead and leave a comment :&lt;/code> y toma nuestro input con la funcion &lt;code>gets()&lt;/code>, esto hace que el binario sea vulnerable a &lt;em>Buffer Overflow&lt;/em> ya qué esta funcion no controla el tamaño de nuestro input permitiendonos desbordar el buffer. Por ultimo con un condicional if comprueba si la variable admin es igual a &lt;code>1&lt;/code>, si esto es verdadero habre la flag (&lt;code>flag.txt&lt;/code>) y la muestra por pantalla, si no se cumple la condicion imprime por pantalla &lt;code>Bye bye&lt;/code> y sale del programa con un codigo de estado &lt;code>1&lt;/code>.&lt;/p></description></item></channel></rss>
+&lt;p>We see that it defines a variable &lt;code>admin&lt;/code> with the value of &lt;code>0&lt;/code>, then defines a buffer of &lt;code>0x10&lt;/code> (16 bytes in decimal), with &lt;code>puts&lt;/code> prints the string &lt;code>PLease go ahead and leave a comment :&lt;/code> and takes our input with the function &lt;code>gets()&lt;/code>, this makes the binary vulnerable to Buffer Overflow because this function does not control the size of our input allowing us to overflow the buffer. Finally with a conditional if it checks if the variable admin is equal to &lt;code>1&lt;/code>, if this is true it opens the flag (&lt;code>flag.txt&lt;/code>) and displays it on the screen, if the condition is not met it prints &lt;code>Bye bye&lt;/code> and exits the program with a status code &lt;code>1&lt;/code>.&lt;/p></description></item></channel></rss>

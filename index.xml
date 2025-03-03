@@ -16,60 +16,14 @@
  C Language
  &lt;a class="anchor" href="#c-language">#&lt;/a>
 &lt;/h2>
-&lt;p>One of the first things we must master before learning binary exploitation is the C programming language. Most of the binaries we will analyze and exploit are written in C, and more importantly, the Linux kernel itself is written in C. Understanding how memory management, pointers, and low-level operations work in C is essential for recognizing and exploiting vulnerabilities such as buffer overflows, use-after-free, and format string attacks.&lt;/p></description></item><item><title>With ToC</title><link>http://localhost:1313/docs/stack/table-of-contents/with-toc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/stack/table-of-contents/with-toc/</guid><description>&lt;h1 id="caput-vino-delphine-in-tamen-vias">
- Caput vino delphine in tamen vias
- &lt;a class="anchor" href="#caput-vino-delphine-in-tamen-vias">#&lt;/a>
-&lt;/h1>
-&lt;h2 id="cognita-laeva-illo-fracta">
- Cognita laeva illo fracta
- &lt;a class="anchor" href="#cognita-laeva-illo-fracta">#&lt;/a>
-&lt;/h2>
-&lt;p>Lorem markdownum pavent auras, surgit nunc cingentibus libet &lt;strong>Laomedonque que&lt;/strong>
-est. Pastor &lt;a href="http://est.org/ire.aspx">An&lt;/a> arbor filia foedat, ne &lt;a href="http://www.indiciumturbam.org/moramquid.php">fugit
-aliter&lt;/a>, per. Helicona illas et
-callida neptem est &lt;em>Oresitrophos&lt;/em> caput, dentibus est venit. Tenet reddite
-&lt;a href="http://www.antro-et.net/">famuli&lt;/a> praesentem fortibus, quaeque vis foret si
-frondes &lt;em>gelidos&lt;/em> gravidae circumtulit &lt;a href="http://incurvasustulit.io/illi-virtute.html">inpulit armenta
-nativum&lt;/a>.&lt;/p>
-&lt;ol>
-&lt;li>Te at cruciabere vides rubentis manebo&lt;/li>
-&lt;li>Maturuit in praetemptat ruborem ignara postquam habitasse&lt;/li>
-&lt;li>Subitarum supplevit quoque fontesque venabula spretis modo&lt;/li>
-&lt;li>Montis tot est mali quasque gravis&lt;/li>
-&lt;li>Quinquennem domus arsit ipse&lt;/li>
-&lt;li>Pellem turis pugnabant locavit&lt;/li>
-&lt;/ol>
-&lt;h2 id="natus-quaerere">
- Natus quaerere
- &lt;a class="anchor" href="#natus-quaerere">#&lt;/a>
-&lt;/h2>
-&lt;p>Pectora et sine mulcere, coniuge dum tincta incurvae. Quis iam; est dextra
-Peneosque, metuis a verba, primo. Illa sed colloque suis: magno: gramen, aera
-excutiunt concipit.&lt;/p></description></item><item><title>Tools Required</title><link>http://localhost:1313/docs/background/tools-required/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/background/tools-required/</guid><description>&lt;h1 id="tools-required">
+&lt;p>One of the first things we must master before learning binary exploitation is the C programming language. Most of the binaries we will analyze and exploit are written in C, and more importantly, the Linux kernel itself is written in C. Understanding how memory management, pointers, and low-level operations work in C is essential for recognizing and exploiting vulnerabilities such as buffer overflows, use-after-free, and format string attacks.&lt;/p></description></item><item><title>Tools Required</title><link>http://localhost:1313/docs/background/tools-required/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/background/tools-required/</guid><description>&lt;h1 id="tools-required">
  Tools Required
  &lt;a class="anchor" href="#tools-required">#&lt;/a>
 &lt;/h1>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/Gallopsled/pwntools">pwntools&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/hugsy/gef">gef&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Without ToC</title><link>http://localhost:1313/docs/stack/table-of-contents/without-toc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/stack/table-of-contents/without-toc/</guid><description>&lt;h1 id="at-me-ipso-nepotibus-nunc-celebratior-genus">
- At me ipso nepotibus nunc celebratior genus
- &lt;a class="anchor" href="#at-me-ipso-nepotibus-nunc-celebratior-genus">#&lt;/a>
-&lt;/h1>
-&lt;h2 id="tanto-oblite">
- Tanto oblite
- &lt;a class="anchor" href="#tanto-oblite">#&lt;/a>
-&lt;/h2>
-&lt;p>Lorem markdownum pectora novis patenti igne sua opus aurae feras materiaque
-illic demersit imago et aristas questaque posset. Vomit quoque suo inhaesuro
-clara. Esse cumque, per referri triste. Ut exponit solisque communis in tendens
-vincetis agisque iamque huic bene ante vetat omina Thebae rates. Aeacus servat
-admonitu concidit, ad resimas vultus et rugas vultu &lt;strong>dignamque&lt;/strong> Siphnon.&lt;/p>
-&lt;p>Quam iugulum regia simulacra, plus meruit humo pecorumque haesit, ab discedunt
-dixit: ritu pharetramque. Exul Laurenti orantem modo, per densum missisque labor
-manibus non colla unum, obiectat. Tu pervia collo, fessus quae Cretenque Myconon
-crate! Tegumenque quae invisi sudore per vocari quaque plus ventis fluidos. Nodo
-perque, fugisse pectora sorores.&lt;/p></description></item><item><title/><link>http://localhost:1313/docs/stack/hidden/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/stack/hidden/</guid><description>&lt;h1 id="this-page-is-hidden-in-menu">
+&lt;/ul></description></item><item><title/><link>http://localhost:1313/docs/stack/hidden/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/stack/hidden/</guid><description>&lt;h1 id="this-page-is-hidden-in-menu">
  This page is hidden in menu
  &lt;a class="anchor" href="#this-page-is-hidden-in-menu">#&lt;/a>
 &lt;/h1>
@@ -98,7 +52,7 @@ conscia&lt;/a> cuiquam Caeneus quas.&lt;/p>
 &lt;p>O fallor &lt;a href="http://www.spectataharundine.org/aquas-relinquit.html">in sustinui
 iussorum&lt;/a> equidem.
 Nymphae operi oris alii fronde parens dumque, in auro ait mox ingenti proxima
-iamdudum maius?&lt;/p></description></item><item><title>Simple Calc</title><link>http://localhost:1313/docs/stack/buffer-overflow--static/bkp16_simplecalc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/stack/buffer-overflow--static/bkp16_simplecalc/</guid><description>&lt;blockquote>
+iamdudum maius?&lt;/p></description></item><item><title>Simple Calc</title><link>http://localhost:1313/docs/stack/buffer-overflow-static/bkp16_simplecalc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/stack/buffer-overflow-static/bkp16_simplecalc/</guid><description>&lt;blockquote>
 &lt;p>Puedes descargar el binario de este desafío &lt;a href="./bins/simplecalc">aquí&lt;/a>.&lt;/p>&lt;/blockquote>
 &lt;h1 id="simple-calc-boston-key-party-ctf-2016">
  Simple Calc (Boston Key Party CTF 2016)
@@ -135,7 +89,7 @@ Options Menu:
  TryOverflowMe 1
  &lt;a class="anchor" href="#tryoverflowme-1">#&lt;/a>
 &lt;/h1>
-&lt;p>Nos entregan un binario de 64 bits con la siguientes protecciones.&lt;/p>
+&lt;p>We are provided with a 64-bit binary with the following protections.&lt;/p>
 &lt;pre>&lt;font color="#F66151">&lt;b>$&lt;/b>&lt;/font> checksec overflowme1 
  Arch: amd64-64-little
  RELRO: &lt;font color="#A2734C">Partial RELRO&lt;/font>
@@ -143,7 +97,7 @@ Options Menu:
  NX: &lt;font color="#26A269">NX enabled&lt;/font>
  PIE: &lt;font color="#C01C28">No PIE (0x400000)&lt;/font>
  Stripped: &lt;font color="#C01C28">No&lt;/font>&lt;/pre>
-&lt;p>Tambien tenemos su codigo fuente.&lt;/p>
+&lt;p>We also have its source code.&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>(){
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">setup&lt;/span>();
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">banner&lt;/span>();
@@ -168,8 +122,8 @@ Options Menu:
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">exit&lt;/span>(&lt;span style="color:#ae81ff">1&lt;/span>);
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="analisis-del-codigo-fuente">
- Analisis del codigo fuente.
- &lt;a class="anchor" href="#analisis-del-codigo-fuente">#&lt;/a>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="analysis-of-the-source-code">
+ Analysis of the source code.
+ &lt;a class="anchor" href="#analysis-of-the-source-code">#&lt;/a>
 &lt;/h2>
-&lt;p>Vemos que define una variable &lt;code>admin&lt;/code> con el valor de &lt;code>0&lt;/code>, luego define un buffer de &lt;code>0x10&lt;/code> (16 bytes en decimal), con &lt;code>puts&lt;/code> imprime la cadena &lt;code>PLease go ahead and leave a comment :&lt;/code> y toma nuestro input con la funcion &lt;code>gets()&lt;/code>, esto hace que el binario sea vulnerable a &lt;em>Buffer Overflow&lt;/em> ya qué esta funcion no controla el tamaño de nuestro input permitiendonos desbordar el buffer. Por ultimo con un condicional if comprueba si la variable admin es igual a &lt;code>1&lt;/code>, si esto es verdadero habre la flag (&lt;code>flag.txt&lt;/code>) y la muestra por pantalla, si no se cumple la condicion imprime por pantalla &lt;code>Bye bye&lt;/code> y sale del programa con un codigo de estado &lt;code>1&lt;/code>.&lt;/p></description></item></channel></rss>
+&lt;p>We see that it defines a variable &lt;code>admin&lt;/code> with the value of &lt;code>0&lt;/code>, then defines a buffer of &lt;code>0x10&lt;/code> (16 bytes in decimal), with &lt;code>puts&lt;/code> prints the string &lt;code>PLease go ahead and leave a comment :&lt;/code> and takes our input with the function &lt;code>gets()&lt;/code>, this makes the binary vulnerable to Buffer Overflow because this function does not control the size of our input allowing us to overflow the buffer. Finally with a conditional if it checks if the variable admin is equal to &lt;code>1&lt;/code>, if this is true it opens the flag (&lt;code>flag.txt&lt;/code>) and displays it on the screen, if the condition is not met it prints &lt;code>Bye bye&lt;/code> and exits the program with a status code &lt;code>1&lt;/code>.&lt;/p></description></item></channel></rss>

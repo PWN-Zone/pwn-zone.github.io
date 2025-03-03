@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PWN Zone</title><link>http://localhost:1313/docs/stack/buffer-overflow-static/</link><description>Recent content on PWN Zone</description><generator>Hugo</generator><language>en</language><atom:link href="http://localhost:1313/docs/stack/buffer-overflow-static/index.xml" rel="self" type="application/rss+xml"/><item><title>Simple Calc</title><link>http://localhost:1313/docs/stack/buffer-overflow-static/bkp16_simplecalc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/stack/buffer-overflow-static/bkp16_simplecalc/</guid><description>&lt;blockquote>
+&lt;p>Puedes descargar el binario de este desafío &lt;a href="./bins/simplecalc">aquí&lt;/a>.&lt;/p>&lt;/blockquote>
+&lt;h1 id="simple-calc-boston-key-party-ctf-2016">
+ Simple Calc (Boston Key Party CTF 2016)
+ &lt;a class="anchor" href="#simple-calc-boston-key-party-ctf-2016">#&lt;/a>
+&lt;/h1>
+&lt;p>Se nos entrega un binario de 64 bits con las siguientes protecciones.&lt;/p>
+&lt;pre>&lt;font color="#CC0000">&lt;b>$&lt;/b>&lt;/font> checksec simplecalc
+ Arch: amd64-64-little
+ RELRO: &lt;font color="#C4A000">Partial RELRO&lt;/font>
+ Stack: &lt;font color="#CC0000">No canary found&lt;/font>
+ NX: &lt;font color="#4E9A06">NX enabled&lt;/font>
+ PIE: &lt;font color="#CC0000">No PIE (0x400000)&lt;/font>
+ Stripped: &lt;font color="#CC0000">No&lt;/font>&lt;/pre>
+&lt;p>Al ejecutarlo, el programa solicita la cantidad de operaciones a realizar. Una vez ingresado el número, permite seleccionar la operación deseada.&lt;/p>
+&lt;pre>&lt;font color="#CC0000">&lt;b>$&lt;/b>&lt;/font> ./simplecalc
+
+ |#------------------------------------#|
+ | Something Calculator |
+ |#------------------------------------#|
+
+Expected number of calculations: 50
+Options Menu: 
+ [1] Addition.
+ [2] Subtraction.
+ [3] Multiplication.
+ [4] Division.
+ [5] Save and Exit.
+=&amp;gt;&lt;/pre>
+&lt;h2 id="ingenieria-inversa-y-analisis-del-codigo-fuente">
+ Ingenieria inversa y analisis del codigo fuente
+ &lt;a class="anchor" href="#ingenieria-inversa-y-analisis-del-codigo-fuente">#&lt;/a>
+&lt;/h2>
+&lt;p>Si abrimos el binario con IDA, podemos ver lo siguiente en la funcion &lt;code>main&lt;/code>.&lt;/p></description></item></channel></rss>
