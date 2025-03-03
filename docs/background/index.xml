@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Introduction on PWN Zone</title><link>http://localhost:1313/docs/background/</link><description>Recent content in Introduction on PWN Zone</description><generator>Hugo</generator><language>en</language><atom:link href="http://localhost:1313/docs/background/index.xml" rel="self" type="application/rss+xml"/><item><title>Recommended background knowledge</title><link>http://localhost:1313/docs/background/recommended-background-knowledge/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/background/recommended-background-knowledge/</guid><description>&lt;h2 id="how-computers-work">
+ How Computers Work
+ &lt;a class="anchor" href="#how-computers-work">#&lt;/a>
+&lt;/h2>
+&lt;p>Before diving into binary exploitation, it&amp;rsquo;s crucial to understand how computers work at a fundamental level. This includes learning about CPU architecture, memory hierarchy, how instructions are executed, and the role of operating systems. Having a solid grasp of these concepts will make it much easier to understand vulnerabilities and how to exploit them effectively.&lt;/p>
+&lt;h3 id="learning-resources">
+ Learning Resources.
+ &lt;a class="anchor" href="#learning-resources">#&lt;/a>
+&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://steveklabnik.com/writing/should-you-learn-c-to-learn-how-the-computer-works">How the computer works Steve Klabnik&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=6jSKldt7Eqs">How a CPU works and Introduction to Assembler - bin 0x04&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.reddit.com/r/computerscience/comments/ljfcm3/how_computers_work_the_basics/?rdt=50034">How Computers Work: The Basics (Reddit Thread)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="c-language">
+ C Language
+ &lt;a class="anchor" href="#c-language">#&lt;/a>
+&lt;/h2>
+&lt;p>One of the first things we must master before learning binary exploitation is the C programming language. Most of the binaries we will analyze and exploit are written in C, and more importantly, the Linux kernel itself is written in C. Understanding how memory management, pointers, and low-level operations work in C is essential for recognizing and exploiting vulnerabilities such as buffer overflows, use-after-free, and format string attacks.&lt;/p></description></item><item><title>Tools Required</title><link>http://localhost:1313/docs/background/tools-required/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/background/tools-required/</guid><description>&lt;h1 id="tools-required">
+ Tools Required
+ &lt;a class="anchor" href="#tools-required">#&lt;/a>
+&lt;/h1>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/Gallopsled/pwntools">pwntools&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/hugsy/gef">gef&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>
